@@ -6,9 +6,9 @@ public class AskingQuestions {
         double num1, num2, num3;
         System.out.println("Enter 2 numbers to find the average.");
         System.out.println("Enter first number: ");
-        num1 = keyboard.nextInt();
+        num1 = keyboard.nextDouble();
         System.out.println("Enter second number: ");
-        num2 = keyboard.nextInt();
+        num2 = keyboard.nextDouble();
         num3 = (num1+num2)/2;
         System.out.println("The average between "+num1+" and "+num2+" is "+num3);
 
